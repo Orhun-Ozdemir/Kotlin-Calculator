@@ -19,53 +19,53 @@ class MainActivity : AppCompatActivity() {
 
         number0.setOnClickListener {
 
-        ResultTextView.text=hesapMakinesi.addnumber("0")
+        ResultTextView.text=hesapMakinesi.addnumber("0",it)
 
 
         }
         number1.setOnClickListener {
 
-            ResultTextView.text=hesapMakinesi.addnumber("1")
+            ResultTextView.text=hesapMakinesi.addnumber("1",it)
 
 
         }
         number2.setOnClickListener {
 
 
-            ResultTextView.text=hesapMakinesi.addnumber("2")
+            ResultTextView.text=hesapMakinesi.addnumber("2",it)
         }
         number3.setOnClickListener {
 
-            ResultTextView.text=hesapMakinesi.addnumber("3")
+            ResultTextView.text=hesapMakinesi.addnumber("3",it)
 
         }
         number4.setOnClickListener {
 
 
-            ResultTextView.text=hesapMakinesi.addnumber("4")
+            ResultTextView.text=hesapMakinesi.addnumber("4",it)
         }
         number5.setOnClickListener {
 
 
-            ResultTextView.text=hesapMakinesi.addnumber("5")
+            ResultTextView.text=hesapMakinesi.addnumber("5",it)
         }
         number6.setOnClickListener {
 
 
-            ResultTextView.text=hesapMakinesi.addnumber("6")
+            ResultTextView.text=hesapMakinesi.addnumber("6",it)
         }
         number7.setOnClickListener {
 
-            ResultTextView.text=hesapMakinesi.addnumber("7")
+            ResultTextView.text=hesapMakinesi.addnumber("7",it)
         }
         number8.setOnClickListener {
 
-            ResultTextView.text=hesapMakinesi.addnumber("8")
+            ResultTextView.text=hesapMakinesi.addnumber("8",it)
 
         }
         number9.setOnClickListener {
 
-            ResultTextView.text=hesapMakinesi.addnumber("9")
+            ResultTextView.text=hesapMakinesi.addnumber("9",it)
 
         }
         resultButton.setOnClickListener {

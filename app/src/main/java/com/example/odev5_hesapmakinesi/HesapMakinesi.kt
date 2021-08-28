@@ -16,7 +16,7 @@ class HesapMakinesi
 
 
 
-    fun addnumber(numberstring:String):String {
+    fun addnumber(numberstring:String,it:View):String {
 
 
         /*var ıntvalue:Int=0
@@ -38,7 +38,7 @@ class HesapMakinesi
 
 
 
-        if (number.length != 9) {
+        if (number.length != 6) {
             if (numberstring == "0") {
                 if (number == "0") {
                     return mainstring
@@ -59,7 +59,7 @@ class HesapMakinesi
             }
         }
         else{
-
+            Snackbar.make(it,"Girilen Sayı 6 Basamktan fazla olamaz",Snackbar.LENGTH_SHORT).show()
             Log.e("Range Aşımı","Giriline Deger 6 Karakterden Falza olamaz")
             return mainstring
         }
