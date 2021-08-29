@@ -2,4 +2,6 @@
 # HESAP MAKİNESİ
 
 
-![Hesap Makinesi Arayüz](HesapMakinesi.png 200x400)
+
+
+<img src="HesapMakinesi.png height="400"width="200"></img>
