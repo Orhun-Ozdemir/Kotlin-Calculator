@@ -3,5 +3,4 @@
 
 
 
-
-<img src="HesapMakinesi.png height="400"width="200"></img>
+<img src="HesapMakinesi.png"  width="200" height="400">
